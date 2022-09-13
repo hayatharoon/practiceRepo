@@ -53,3 +53,15 @@ And for this process:
 2. Run `git stash` command.
 
 If we want to unstash the file and add to the repository agian then run `git stash pop` command.
+
+If we want to clean the stashing area then we have a command `git stash clear` which will clean the stashing area.
+
+## **Connecting Remote Repository to Local Repository:**
+```
+git remote add origin <...url...>
+```
+This is the command which add the remote repository to the local repository.
+
+By naming convention, All the repositories and folder are in your own account then they have a name called `origin` 
+
+- `Git remote -v:` This command will show all the url attached to you current repository.
