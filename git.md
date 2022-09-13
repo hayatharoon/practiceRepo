@@ -57,11 +57,31 @@ If we want to unstash the file and add to the repository agian then run `git sta
 If we want to clean the stashing area then we have a command `git stash clear` which will clean the stashing area.
 
 ## **Connecting Remote Repository to Local Repository:**
+
 ```
 git remote add origin <...url...>
 ```
+
 This is the command which add the remote repository to the local repository.
 
-By naming convention, All the repositories and folder are in your own account then they have a name called `origin` 
+By naming convention, All the repositories and folder are in your own account then they have a name called `origin`
 
 - `Git remote -v:` This command will show all the url attached to you current repository.
+
+## **Push:**
+
+If we attached the remote repository to the local repository then we have to push local change to remote then we have to run the command:
+
+```
+git push origin master
+```
+
+## **Upstream URL:**
+
+The origin URL is bascially your own URL but from where you `Fork` the respository is actually the `upstream URL`.
+
+**How to add upstream URL to local:**
+
+```
+git remote add upstream <url>
+```
