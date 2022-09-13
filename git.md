@@ -42,3 +42,14 @@ git reset <commit_key>
 ```
 
 Whatever commit we copied then all the commit above that commit will be deleted.
+
+## **Stashing Area:**
+
+Stashing area means that if there is a file which we don't need yet. But maybe it need for later. Then we use stash command to stash or put on the back-stage. And say that whenever I need you I will get you back.
+
+And for this process:
+
+1. We will move that files into staging area with `git add` command.
+2. Run `git stash` command.
+
+If we want to unstash the file and add to the repository agian then run `git stash pop` command.
